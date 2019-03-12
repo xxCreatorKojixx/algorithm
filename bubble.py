@@ -21,7 +21,7 @@ def bubble(data):
             if data[j] < data[j-1]:
                 data[j],data[j-1] = data[j-1], data[j]
                 
- return data
+    return data
 
 
 if __name__ == "__main__":
