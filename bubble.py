@@ -1,17 +1,15 @@
-
-
-
+#
+#写経用バブルソートアルゴリズムです
+#
 
 def main():
-    data = [3,5,2,1,4,6,8,9,7]
 
-    print("デバッグが動きます")
-    x = range(len(data))
-    print("デバッグ")
+    data = [3,5,2,1,4,6,8,9,7]
 
     result = bubble(data)
 
     print(result)
+    
     return 
 
 def bubble(data):
